@@ -10,8 +10,9 @@ android:
     - extra-android-m2repository
     
 script:
-   - ./gradlew build connectedCheck
-   - chmod +x ./gradlew
+    -./gradlew build
+    - ./gradlew build connectedCheck
+    - chmod +x ./gradlew
    
 notifications:
   email: false
