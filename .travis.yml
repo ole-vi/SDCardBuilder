@@ -9,3 +9,6 @@ android:
 
 script:
    - ./gradlew build connectedCheck
+   
+notifications:
+  email: false
