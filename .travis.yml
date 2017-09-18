@@ -1,9 +1,9 @@
 language: android
 android:
   components:
-    - tools 
-    - tools 
+    - tools     
     - platform-tools
+    - tools 
     - build-tools-26.0.1
     - android-26
     - extra-android-support
@@ -14,9 +14,4 @@ notifications:
   email: false
   
 before_install:
- - chmod +x gradlew
- 
- licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+ - chmod +x gradlew 
