@@ -14,9 +14,4 @@ notifications:
   email: false
   
 before_install:
- - chmod +x gradlew 
-
- licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+ -chmod +x gradlew 
