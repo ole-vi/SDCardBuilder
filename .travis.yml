@@ -40,6 +40,10 @@ android:
  - addon-google_apis-google-19 # google play services
  - sys-img-armeabi-v7a-addon-google_apis-google-$ANDROID_API_LEVEL
  - sys-img-armeabi-v7a-addon-google_apis-google-$EMULATOR_API_LEVEL
+ - build-tools-23.0.1
+ - android-23   
+ - extra-android-support
+ - extra-android-m2repository
  licenses:
  - android-sdk-preview-license-.+
  - android-sdk-license-.+
