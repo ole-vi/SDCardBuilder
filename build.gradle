@@ -18,12 +18,13 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-
 android {
     lintOptions {
         abortOnError false
     }
 }
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
