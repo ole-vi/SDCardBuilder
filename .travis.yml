@@ -50,7 +50,7 @@ notifications:
   email: false
  
 deploy:
- - provider: releases  
+  provider: releases  
   file: app/build/outputs/apk/app-release.apk
   skip-cleanup: true 
   
