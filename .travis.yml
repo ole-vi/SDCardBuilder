@@ -50,8 +50,9 @@ notifications:
   email: false
  
 deploy:
-  provider: releases  
-  file: app/build/outputs/apk/app-release.apk
+  provider: releases
+  file_glob: true  
+  file: SDCardBuilder/app/build/outputs/apk/*
   skip-cleanup: true 
   
   on:    
